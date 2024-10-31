@@ -1,0 +1,9 @@
+.narrow {
+    width: 200px;
+    background-color: lightsalmon;
+    display: inline-block;
+}
+
+.special-image {
+    width: calc(100% - 450px);
+}
