@@ -7,6 +7,19 @@ body {
     font-family: sans-serif;
 }
 
+/* this is a flexbox container */
 #two-columns {
-    display: flex;
+    display: flex; /* container property */
+    flex: 1; /* item property */
 }
+
+#sidebar-content {
+    background-color: lightgreen;
+    flex: 4;
+}
+
+#main-content {
+    background-color: lightblue;
+    flex: 5;
+}
+
